@@ -1,0 +1,106 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.credit-card #square {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 280px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: -1px 40px 60px 16px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -1px 40px 60px 16px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -1px 40px 60px 16px rgba(0, 0, 0, 0.24);
+    padding: 40px;
+}
+
+.credit-card #square::before {
+    content: "";
+    background: lightblue url("./img/map.jpg") no-repeat fixed center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 20px;
+    opacity: 0.13;
+}
+
+.credit-card #square .master-card #master-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    font-weight: 530;
+    padding-left: 40px;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+    position: absolute;
+
+}
+
+.credit-card #square .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.credit-card #square .image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.08;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.chip {
+    /* position: absolute;
+    max-width: 65px;
+    max-height: 46px;
+    object-fit: contain;
+    opacity: 1 !important;*/
+    margin-left: -9px;
+    width: 60px;
+}
+
+.credit-card .valid {
+    color: #929292;
+    font-size: medium;
+    font-weight: 400;
+    margin: 2px 0 2px 0;
+    letter-spacing: 1px;
+}
+
+.credit-card .name {
+    color: #929292;
+    font-size: medium;
+    font-weight: 400;
+    padding-top: 2px !important;
+    letter-spacing: 1px;
+}
+
+.circle1 {
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    border-radius: 50%;
+    margin: -100px 0 0 395px;
+    opacity: 0.86;
+
+}
+
+.circle2 {
+    height: 75px;
+    width: 75px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: -75px 0 0 435px;
+    opacity: 0.8;
+}
